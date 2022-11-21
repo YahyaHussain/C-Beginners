@@ -28,16 +28,13 @@ int main(void) {
   int choice;
   int n;
   do {
-    printf("\nChoose from following:\n1 - Insert node\n2 - Remove node\n3 - "
-           "Display list\n4 - Size of list\n5 - Position of an element\n6 - "
-           "Element at position\n7 - Reverse List\n8 - Exit\n");
+    printf("\nChoose from following:\n1 - Insert node\n2 - Remove node\n3 - Display list\n4 - Size of list\n5 - Position of an element\n6 - Element at position\n7 - Reverse List\n8 - Exit\n");
     scanf("%d", &choice);
     switch (choice) {
     case 1: {
       int choose;
       do {
-        printf("\nChoose from following:\n1 - Insert at beginning\n2 - Insert "
-               "at specified position\n3 - Insert at end\n");
+        printf("\nChoose from following:\n1 - Insert at beginning\n2 - Insert at specified position\n3 - Insert at end\n");
         scanf("%d", &choose);
         switch (choose) {
         case 1:
